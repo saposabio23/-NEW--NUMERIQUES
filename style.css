@@ -1,0 +1,69 @@
+:root{
+    --spacing-s: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: darkslategray;
+    color: lightgray;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenu {
+    border-radius: 20px;
+    width: 70vw;
+    height: 70vh;
+}
+
+
+iframe{
+    border: none;
+    width: 100%;
+    height: inherit;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1.7em 1.7em 1em 1.7em;
+  }
+
+.propose{
+    box-shadow: 0px 0px 300px snow;
+    width: fit-content;
+    margin: auto;
+    font-size: 1.5rem;
+    transition: all .4s ease-in-out;
+    background-color: #ffffff1a;
+    
+}
+
+.propose:hover{
+    box-shadow: 0px 0px 10px snow;
+    transition: all .4s ease-in-out;
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 2rem;
+        margin: 1.5rem;
+      }
+
+}
